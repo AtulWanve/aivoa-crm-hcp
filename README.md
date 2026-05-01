@@ -50,8 +50,8 @@ An **AI-first Customer Relationship Management (CRM)** module for Healthcare Pro
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd "AIVOA assignment"
+git clone https://github.com/AtulWanve/aivoa-crm-hcp.git
+cd aivoa-crm-hcp
 ```
 
 ### 2. Backend
