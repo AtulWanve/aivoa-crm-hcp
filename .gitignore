@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+
+# Environment variables — NEVER commit API keys
+backend/.env
+.env
+
+# Database files
+backend/crm_local.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Alembic (migration tool)
+backend/alembic/versions/
+
+# Logs
+*.log
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
